@@ -85,12 +85,12 @@ const Home = () => {
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5, delay: 0.5 }}
-        className="flex gap-4"
+        className="flex flex-col sm:flex-row gap-4 w-full sm:w-auto"
       >
-        <Link to="/resume" className="btn-primary text-lg px-8 py-4">
+        <Link to="/resume" className="btn-primary text-lg px-8 py-4 text-center">
           View Resume
         </Link>
-        <Link to="/work" className="btn-secondary text-lg px-8 py-4">
+        <Link to="/work" className="btn-secondary text-lg px-8 py-4 text-center">
           See My Work
         </Link>
       </motion.div>
