@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://tanishk-kushwah.vercel.app/sitemap.xml
